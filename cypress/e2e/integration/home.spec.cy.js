@@ -6,7 +6,7 @@
 // "viewport" é o tamanho da resolução
 // "visit" é pra visitar o site 
 // "get" sintaxse é para pegar o elemento e o "should" é para verificar se está como queremos. 
-// Usamos essa verificação para ter certeza que o site está online
+// Usamos essa verificação para ter certeza que o site está online.
 
 describe('home page', ()=>{
     it('app deve estar online', ()=>{
