@@ -1,0 +1,4 @@
+node_modules
+signup1.spec.cy.js
+cypress/screenshots
+cypress/videos

@@ -1,0 +1,50 @@
+{
+    "signup": {
+        "name": "Rafael Rabelo",
+        "cpf": "00000014141",
+        "email": "rsilva@outlook.com",
+        "whatsapp": "48999999999",
+        "address": {
+            "postalcode": "88804320",
+            "street": "Rua Visconde de Cairu",
+            "number": "4",
+            "details": "AP6",
+            "district": "Santa Bárbara",
+            "city_state": "Criciúma/SC"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+    "cpf_inv": {
+        "name": "João Lucas",
+        "cpf": "x00000141AA",
+        "email": "joao@outlook.com",
+        "whatsapp": "48999999999",
+        "address": {
+            "postalcode": "88804320",
+            "street": "Rua Visconde de Cairu",
+            "number": "4",
+            "details": "AP6",
+            "district": "Santa Bárbara",
+            "city_state": "Criciúma/SC"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+    "email_inv": {
+        "name": "Rafael Rabelo",
+        "cpf": "00000014141",
+        "email": "papito.com.br",
+        "whatsapp": "48999999999",
+        "address": {
+            "postalcode": "88804320",
+            "street": "Rua Visconde de Cairu",
+            "number": "4",
+            "details": "AP6",
+            "district": "Santa Bárbara",
+            "city_state": "Criciúma/SC"
+        },
+        "delivery_method": "Moto",
+        "cnh": "cnh-digital.jpg"
+    }
+}
