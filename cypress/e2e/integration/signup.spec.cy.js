@@ -1,14 +1,15 @@
 
 // Funcionalidade principal da aplicação onde foi criado os cenários de teste
 
+// Minhas anotações:
+// Import signup para importar a massa de testes que criamos na pasta pages "SignupPage.js"
+// e para conseguirmos usar as funções que foram encapsuladas basta instanciar a clase SignupPage.js
 
-// Padrão page object
-// Import signup para importar a massa de testes que criamos na pasta pages "SignupPage.js" para a suite de testes e2e
-// E para conseguirmos usar as funções que foram encapsuladas basta instanciar a clase SignupPage.js
 // Adicionamos mais um import signupFactory que é referente a massa de teste 
 // Com o comando import signupFactory a gente usa ela ao invés de usar a que está na camada fixtures. A grande vantagem de usar a camada factory é
 // é que temos uma única massa de teste, e toda a alteração para complementar o teste deixamos cravado no caso de teste usando o "deliver.XX = "
 // Assim fica explicito o que está sendo feito no teste já que a alteração está ali no código. Como se fosse uma massa de teste "dinamica"
+
 // Se houver muitos casos de teste e você quiser verificar apenas 1 mais rapido basta adicionar .skip para pular a etapa de teste it.skip('XXXX
 // Lembrar de excluir o import que aparecerá quando informar o código acima (import { it } from ‘faker/lib/locales‘)
 

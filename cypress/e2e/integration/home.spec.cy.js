@@ -1,6 +1,7 @@
 
 // Criado o caso de teste que basicamente verifica se a aplicação está online
 
+// Minhas anotações:
 // ()=> Isso é um arrow function
 // Caso de teste é feito com a palavra "it" no início
 // "viewport" é o tamanho da resolução
