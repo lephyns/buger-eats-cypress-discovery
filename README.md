@@ -47,7 +47,7 @@ No terminal executar o seguinte comando:
 
 ## Como executar o projeto
 
-Para executar o projeto basta abrir o Prompt de Comando selecionar a pasta "buger-eats-cypress-discovery" e executar o seguinte comando:
+Para executar o projeto basta abrir o Prompt de Comando selecionar a pasta doprojeto e executar o seguinte comando:
 
 ```
 $ npx cypress open
