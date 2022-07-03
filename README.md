@@ -12,7 +12,7 @@ Este projeto possui 2 suites as quais posteriormente podem ser utilizadas como t
     - **CST01:** O usuário deve se tornar um entregador com sucesso;
     - **CST02:** Tentativa com CPF incorreto;
     - **CST03:** Tentativa com e-mail incorreto;
-    - **CST04:** CST04: Sete cenários de teste (validação de campos obrigatórios) através de uma constante (array de dados) onde criamos um loop (forEach).
+    - **CST04:** Sete cenários de teste (validação de campos obrigatórios) através de uma constante (array de dados) onde criamos um loop (forEach).
 
 
 ## Instalar as dependências
