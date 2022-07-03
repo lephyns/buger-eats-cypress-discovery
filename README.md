@@ -3,7 +3,7 @@
 Este projeto foi criado com base no curso Cypress Discovery ministrado pelo professor <a href="https://www.linkedin.com/in/papitoio/">Fernando Papito</a>.<br>
 As tecnologias utilizadas foram Node.js, Cypress e JavaScript.
 
-Este projeto possui 2 suites que posteriormente poderão ser utilizadas como teste de regressão: Home e Signup.
+Este projeto possui 2 suites as quais posteriormente podem ser utilizadas como teste de regressão: Home e Signup.
 
 - **Home:** Verifica se a aplicação BugerEats está online.
 
@@ -11,7 +11,7 @@ Este projeto possui 2 suites que posteriormente poderão ser utilizadas como tes
 
     - **CST01:** O usuário deve se tornar um entregador com sucesso;
     - **CST02:** Tentativa com CPF incorreto;
-    - **CST03:** Tentativa com email incorreto;
+    - **CST03:** Tentativa com e-mail incorreto;
     - **CST04:** CST04: Sete cenários de teste (validação de campos obrigatórios) através de uma constante (array de dados) onde criamos um loop (forEach).
 
 
@@ -20,8 +20,7 @@ Este projeto possui 2 suites que posteriormente poderão ser utilizadas como tes
 Na pasta do projeto executar no terminal os seguintes comandos para instalar as dependências:
 
 ```
-npm install    
-
+$ npm install              # Instala as dependências do projeto
 $ npm run test             # Executa o script (package.json)                      
 $ npx cypress open         # Abre a interface gráfica do Cypress
 
@@ -30,7 +29,7 @@ $ npx cypress open         # Abre a interface gráfica do Cypress
 
 ## Instalar as bibliotecas:
 
-Foram adicionadas 2 bibliotecas neste projeto: Biblioteca Faker e <a href="https://www.npmjs.com/package/gerador-validador-cpf">Biblioteca CPF</a>.
+Foram adicionadas 2 bibliotecas neste projeto: Biblioteca Faker e <a href="https://www.npmjs.com/package/gerador-validador-cpf">Validador de CPF</a>.
 
 - **Biblioteca faker:** Utilizada para gerar nomes e e-mails aleatoriamente.
 No terminal executar o seguinte comando:

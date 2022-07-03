@@ -3,3 +3,4 @@ signup1.spec.cy.js
 cypress/screenshots
 cypress/videos
 instrucoes.md
+spec.cy.js
