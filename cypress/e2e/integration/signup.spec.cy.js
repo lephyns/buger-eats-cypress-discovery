@@ -22,6 +22,7 @@ describe('Signup', () => {
     // O que ficar dentro de describe fica genérico e é utilizado em todos os casos de testes que estão dentro do describe (suite de testes). 
     // Usamos isso para não ter que ficar digitando o mesmo código sempre.
 
+    
     // CST01: O usuário deve se tornar um entregador com sucesso
     it('User should be deliver', function () {
 
@@ -37,6 +38,7 @@ describe('Signup', () => {
         signup.modalContentShouldBe(expectedMessage)
 
     })
+
 
     // CST02: Tentativa com CPF incorreto
     it('Incorrect document', function () {
@@ -66,8 +68,9 @@ describe('Signup', () => {
 
     })
 
-    
-    // CST04: Sete cenários de teste através de uma constante (array de dados) onde criamos um loop (forEach) para poder multiplicar pela quantidade de "its"
+
+    // CST04: Sete cenários de teste (validação de campos obrigatórios) através de uma constante (array de dados) 
+    // onde criamos um loop (forEach) para poder multiplicar pela quantidade de "its"
 
     // Criado um contexto para testar campos obrigatórios como array. Esse contexto define uma massa de teste com o nome do campo que vai ser testado e com a mensagem esperada através da chave "output"
     // Na sequencia colocamos um before simples para ser executado uma única vez. Então quando esse gancho for acessado ele vai acessar a página e submeter o formulário uma única vez
@@ -85,13 +88,13 @@ describe('Signup', () => {
             { field: 'cnh', output: 'Adicione uma foto da sua CNH' }
         ]
 
-        before(function(){
+        before(function () {
             signup.go()
             signup.submit()
         })
 
-        messages.forEach(function(msg){
-            it(`${msg.field} is required`, function(){
+        messages.forEach(function (msg) {
+            it(`${msg.field} is required`, function () {
                 signupPage.alertMessageShouldBe(msg.output)
             })
         })
