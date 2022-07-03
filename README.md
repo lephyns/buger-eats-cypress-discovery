@@ -27,6 +27,7 @@ $ npx cypress open         # Abre a interface gráfica do Cypress
 
 ```
 
+
 ## Instalar as bibliotecas:
 
 Foram adicionadas 2 bibliotecas neste projeto: Biblioteca Faker e <a href="https://www.npmjs.com/package/gerador-validador-cpf">Biblioteca CPF</a>.
@@ -47,10 +48,10 @@ No terminal executar o seguinte comando:
 
 ## Como executar o projeto
 
-Para executar o projeto basta abrir o Prompt de Comando selecionar a pasta e executar o seguinte comando:
+Para executar o projeto basta abrir o Prompt de Comando selecionar a pasta "buger-eats-cypress-discovery" e executar o seguinte comando:
 
 ```
 $ npx cypress open
 ```
 
-A interface do Cypress será aberta após alguns segundos. Quando feito é só selecionar a suite (spec) e assistir a execução dos testes. 
+A interface do Cypress será aberta após alguns segundos. Quando feito é só selecionar a suite (spec) e assistir a execução dos testes.
