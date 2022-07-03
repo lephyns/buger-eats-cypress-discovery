@@ -54,3 +54,6 @@ $ npx cypress open
 ```
 
 A interface do Cypress será aberta após alguns segundos. Quando feito é só selecionar a suite (spec) e assistir a execução dos testes.
+
+Abaixo gif mostrando o funcionamento do teste:
+![Gif](./cypress/fixtures/images/teste_automatizado_buger_eats.gif "Teste automatizado Buger Eats")
