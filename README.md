@@ -27,7 +27,7 @@ $ npx cypress open         # Abre a interface gráfica do Cypress
 ```
 
 
-## Instalar as bibliotecas:
+## Instalar as bibliotecas
 
 Foram adicionadas 2 bibliotecas neste projeto: Biblioteca Faker e <a href="https://www.npmjs.com/package/gerador-validador-cpf">Validador de CPF</a>.
 
